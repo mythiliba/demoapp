@@ -4,13 +4,10 @@ on:
  push:
    branches:
    - main
-   paths:
-   - Terraform/**
+   
  pull_request:
    branches:
    - main
-   paths:
-   - Terraform/**
  
 env:
  # verbosity setting for Terraform logs
